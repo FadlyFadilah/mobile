@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:prog/dialogpage.dart';
 import 'package:prog/pagegambar.dart';
 import 'package:prog/pagegesture.dart';
+import 'package:prog/pertemuan10.dart';
 import 'package:prog/pertemuan8.dart';
 import 'package:prog/petemuan7.dart';
 import 'package:prog/screen.dart';
@@ -26,6 +27,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (context) => const Toastt());
       case '/pertemuan8/dialog':
         return MaterialPageRoute(builder: (context) => const DialogPage());
+      case '/pertemuan10':
+        return MaterialPageRoute(builder: (context) => const Pertemuan10());
       default:
         return _errorRoute();
     }

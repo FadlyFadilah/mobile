@@ -25,6 +25,12 @@ class MyApp extends StatelessWidget {
               },
               child: const Text("Halaman Pertemuan 8"),
             ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/pertemuan10");
+              },
+              child: const Text("Halaman Pertemuan 10"),
+            ),
           ],
         ),
       ),
